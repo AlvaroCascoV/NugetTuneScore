@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>NugetTuneScore</AssemblyName>
+    <RootNamespace>TuneScore</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>NugetTuneScore</Title>
+    <PackageId>NugetTuneScore</PackageId>
+    <Authors>AlvaroCascoV; ACV; TAJAMAR; TAJAMARACV</Authors>
+    <Description>Shared models, constants, and helpers for TuneScore (API and .NET clients). Code namespaces use TuneScore.*.</Description>
+    <PackageTags>tunescore;alvarocascov;acv;tajamar;tajamaracv;nuget</PackageTags>
+    <Version>1.0.2</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/AlvaroCascoV/NugetTuneScore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AlvaroCascoV/NugetTuneScore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageReleaseNotes>Publish-ready metadata, symbol package, MIT LICENSE in repo.</PackageReleaseNotes>
+    <DebugType>portable</DebugType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
