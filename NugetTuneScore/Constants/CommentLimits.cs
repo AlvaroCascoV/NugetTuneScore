@@ -1,4 +1,4 @@
-namespace TuneScore.Constants;
+namespace NugetTuneScore.Constants;
 
 /// <summary>Rating-linked top-level comments vs threaded replies.</summary>
 public static class CommentLimits

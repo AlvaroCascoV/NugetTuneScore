@@ -1,7 +1,7 @@
 using System.Security.Claims;
-using TuneScore.Constants;
+using NugetTuneScore.Constants;
 
-namespace TuneScore.Helpers
+namespace NugetTuneScore.Helpers
 {
     public static class ClaimsHelper
     {

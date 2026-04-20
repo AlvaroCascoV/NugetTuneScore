@@ -2,7 +2,7 @@ using System;
 using System.Globalization;
 using System.Linq;
 
-namespace TuneScore.Helpers;
+namespace NugetTuneScore.Helpers;
 
 public static class CountryFlagHelper
 {

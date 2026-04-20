@@ -1,4 +1,4 @@
-namespace TuneScore.Constants;
+namespace NugetTuneScore.Constants;
 
 /// <summary>Role names stored in Users.Role and used in cookie claims.</summary>
 public static class Roles

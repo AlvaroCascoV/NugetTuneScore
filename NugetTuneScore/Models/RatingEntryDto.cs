@@ -1,4 +1,4 @@
-namespace TuneScore.Models;
+namespace NugetTuneScore.Models;
 
 /// <summary>
 /// A single rating shown in the list (user, score, comment).

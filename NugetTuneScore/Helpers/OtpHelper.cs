@@ -1,6 +1,6 @@
 using System.Security.Cryptography;
 
-namespace TuneScore.Helpers;
+namespace NugetTuneScore.Helpers;
 
 public static class OtpHelper
 {

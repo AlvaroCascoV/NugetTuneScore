@@ -1,4 +1,4 @@
-namespace TuneScore.Constants;
+namespace NugetTuneScore.Constants;
 
 /// <summary>Default image filenames under wwwroot/images/{albums|artists|playlists}.</summary>
 public static class ImageDefaults

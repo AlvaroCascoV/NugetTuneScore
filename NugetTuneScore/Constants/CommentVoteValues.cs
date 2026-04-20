@@ -1,4 +1,4 @@
-namespace TuneScore.Constants;
+namespace NugetTuneScore.Constants;
 
 public static class CommentVoteValues
 {

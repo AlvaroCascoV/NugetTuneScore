@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace TuneScore.Models
+namespace NugetTuneScore.Models
 {
     public class RatingSummary
     {

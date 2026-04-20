@@ -1,4 +1,4 @@
-namespace TuneScore.Constants;
+namespace NugetTuneScore.Constants;
 
 /// <summary>Albums.ContentStatus and Songs.ContentStatus values.</summary>
 public static class ContentStatuses

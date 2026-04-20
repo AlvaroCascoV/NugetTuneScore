@@ -1,4 +1,4 @@
-namespace TuneScore.Constants;
+namespace NugetTuneScore.Constants;
 
 /// <summary>ArtistLinkRequests.Status values.</summary>
 public static class RequestStatuses

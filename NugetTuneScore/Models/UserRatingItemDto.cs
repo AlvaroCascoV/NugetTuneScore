@@ -1,4 +1,4 @@
-namespace TuneScore.Models;
+namespace NugetTuneScore.Models;
 
 //Una fila de una valoración para el perfil del usuario (canción, puntuación, comentario, fechas).
 public class UserRatingItemDto

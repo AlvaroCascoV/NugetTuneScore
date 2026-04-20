@@ -1,4 +1,4 @@
-namespace TuneScore.Models;
+namespace NugetTuneScore.Models;
 
 /// <summary>
 /// Result shape for SP_PAGINACION_ALBUMES stored procedure (keyless mapping belongs in the API DbContext).

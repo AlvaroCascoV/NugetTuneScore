@@ -1,4 +1,4 @@
-namespace TuneScore.Models;
+namespace NugetTuneScore.Models;
 
 /// <summary>
 /// Entidad top-rated (artista, álbum o canción) para la página de inicio.

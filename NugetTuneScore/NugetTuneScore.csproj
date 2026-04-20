@@ -5,14 +5,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>NugetTuneScore</AssemblyName>
-    <RootNamespace>TuneScore</RootNamespace>
+    <RootNamespace>NugetTuneScore</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>NugetTuneScore</Title>
     <PackageId>NugetTuneScore</PackageId>
     <Authors>AlvaroCascoV; ACV; TAJAMAR; TAJAMARACV</Authors>
-    <Description>Shared models, constants, and helpers for TuneScore (API and .NET clients). Code namespaces use TuneScore.*.</Description>
+    <Description>Shared models, constants, and helpers for TuneScore (API and .NET clients). Code namespaces use NugetTuneScore.*.</Description>
     <PackageTags>tunescore;alvarocascov;acv;tajamar;tajamaracv;nuget</PackageTags>
-    <Version>1.0.2</Version>
+    <Version>1.0.4</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -21,7 +21,7 @@
     <RepositoryType>git</RepositoryType>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <NeutralLanguage>en</NeutralLanguage>
-    <PackageReleaseNotes>Publish-ready metadata, symbol package, MIT LICENSE in repo.</PackageReleaseNotes>
+    <PackageReleaseNotes>Renamed all namespaces from TuneScore.* to NugetTuneScore.* (Models, Helpers, Constants) for coherence with the package identity.</PackageReleaseNotes>
     <DebugType>portable</DebugType>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
@@ -30,6 +30,10 @@
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\" />
     <None Include="..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.3" />
   </ItemGroup>
 
 </Project>

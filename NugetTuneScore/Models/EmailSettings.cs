@@ -1,4 +1,4 @@
-namespace TuneScore.Models;
+namespace NugetTuneScore.Models;
 
 public class EmailSettings
 {
