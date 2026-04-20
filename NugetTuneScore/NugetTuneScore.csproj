@@ -10,9 +10,9 @@
     <Title>NugetTuneScore</Title>
     <PackageId>NugetTuneScore</PackageId>
     <Authors>AlvaroCascoV; ACV; TAJAMAR; TAJAMARACV</Authors>
-    <Description>Shared models, constants, and helpers for TuneScore (API and .NET clients). Code namespaces use NugetTuneScore.*.</Description>
+    <Description>Shared entities, DTOs, constants, and helpers for TuneScore (API and .NET clients). Code namespaces use NugetTuneScore.*.</Description>
     <PackageTags>tunescore;alvarocascov;acv;tajamar;tajamaracv;nuget</PackageTags>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -21,7 +21,7 @@
     <RepositoryType>git</RepositoryType>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <NeutralLanguage>en</NeutralLanguage>
-    <PackageReleaseNotes>Renamed all namespaces from TuneScore.* to NugetTuneScore.* (Models, Helpers, Constants) for coherence with the package identity.</PackageReleaseNotes>
+    <PackageReleaseNotes>Release 1.0.5 aligns documentation and package metadata with the shipped NugetTuneScore.* entities, DTOs, constants, and helpers.</PackageReleaseNotes>
     <DebugType>portable</DebugType>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>

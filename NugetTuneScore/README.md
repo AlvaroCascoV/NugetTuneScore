@@ -1,28 +1,30 @@
 # NugetTuneScore
 
-Shared **constants**, **DTOs**, and **helpers** for the TuneScore ecosystem. C# namespaces are `TuneScore.*` so your app code stays consistent.
+Shared **entities**, **DTOs**, **constants**, and **helpers** for the TuneScore ecosystem. C# namespaces are `NugetTuneScore.*`.
 
 - **Source:** [github.com/AlvaroCascoV/NugetTuneScore](https://github.com/AlvaroCascoV/NugetTuneScore)
 - **Main app:** [TuneScore](https://github.com/AlvaroCascoV/TuneScore)
 
-This package does not include EF Core entities, SQL Server sequence names, or other persistence-only constants—those belong in the API (next to `DbContext`). It does not include ASP.NET-specific types. Use the same JSON shapes as reference for front-end TypeScript or OpenAPI-generated clients.
+This package is intended as a shared contract and utility layer between TuneScore services and .NET clients. It includes reusable entities and DTOs in `Models`, constants in `Constants`, and helper utilities in `Helpers` to keep behavior and data shapes consistent across projects.
+
+It does not include ASP.NET host/runtime concerns (controllers, middleware, program startup, etc.).
 
 ## Install
 
 ```xml
-<PackageReference Include="NugetTuneScore" Version="1.0.2" />
+<PackageReference Include="NugetTuneScore" Version="1.0.5" />
 ```
 
 ## Publish to nuget.org
 
-From the repo root (after [creating an API key](https://www.nuget.org/account/apikeys)):
+From the repository root (after [creating an API key](https://www.nuget.org/account/apikeys)):
 
 ```bash
 dotnet pack NugetTuneScore/NugetTuneScore.csproj -c Release -o out
 dotnet nuget push out/*.nupkg out/*.snupkg --api-key YOUR_KEY --source https://api.nuget.org/v3/index.json
 ```
 
-One `push` uploads both files: the **`.nupkg`** (the library, required) and the **`.snupkg`** (debug symbols for the NuGet symbol server, optional). If you do not want to publish symbols, push only `out/*.nupkg`.
+One `push` uploads both files: the **`.nupkg`** (library, required) and the **`.snupkg`** (debug symbols for the NuGet symbol server, optional). If you do not want to publish symbols, push only `out/*.nupkg`.
 
 Unsigned packages are normal for open-source uploads; nuget.org accepts them.
 
